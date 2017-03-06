@@ -1,4 +1,4 @@
-moduledir 'modules'
+#moduledir 'modules'
 
 mod 'simp-doc',
   :git => 'https://github.com/simp/simp-doc',
