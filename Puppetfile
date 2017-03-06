@@ -1,4 +1,4 @@
-moduledir 'src'
+moduledir 'modules'
 
 mod 'simp-doc',
   :git => 'https://github.com/simp/simp-doc',
@@ -8,13 +8,9 @@ mod 'simp-rsync',
   :git => 'https://github.com/simp/simp-rsync',
   :ref => '6b3ded441b65f603842396a6072641d1c35e124c'
 
-moduledir 'src/rubygems'
-
 mod 'rubygem-simp_cli',
   :git => 'https://github.com/simp/rubygem-simp-cli',
   :ref => '4ad5b2f176aa80ea931a8f49723361e3af6e465c'
-
-moduledir 'src/puppet/modules'
 
 mod 'bfraser-grafana',
   :git => 'https://github.com/simp/puppet-grafana',
